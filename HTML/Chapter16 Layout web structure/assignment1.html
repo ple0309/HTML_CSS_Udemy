@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <style>
+        main{
+            width: 900px;
+            height: ;
+            background-color: chocolate;
+        }
+        header{
+            width: 900px;
+            height: 200px;
+            background-color: #194350;
+        }
+        .logo{
+            width: 100px;
+            height: 100px;
+            float: left;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        .logo img{
+            width: 100px;
+            height: 100px;
+            border: 2px solid white;
+            border-radius: 50px;
+        }
+        nav{
+            width: 550px;
+            height: 50px;
+            float: right;
+            margin-top: 120px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .nav_item{
+            align-content: center;
+            margin-right: 50px;
+            background-color: aquamarine;
+            padding: 20px;
+            border-radius: 50px;
+            transition: background-color 0.1s ease-in-out,
+            transform 0.3s ease-in-out;
+        }
+        .nav_item:hover{
+            background-color: azure;
+            transform: scale(1.5);
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        
+        .ads{
+            width: 900px;
+            height: 100px;
+            background-color: wheat;
+            text-align: center;
+            align-content: center;
+        }
+
+        .main_area{
+            width: 900px;
+            height:;
+            background-color: chocolate;
+        }
+        article{
+            width: 700px;
+            height: 500px;
+            align-content: center;
+            text-align: center;
+            background-color: turquoise;
+            float: left;
+        }
+
+        aside{
+            width: 200px;
+            height: 500px;
+            background-color: chocolate;
+            float: right;
+        }
+        .aside_item{
+            background-color: #9DBEB9;
+            width: 50px;
+            text-align: center;
+            margin-top: 10px;
+            padding: 10px;
+        }
+        footer{
+            width: 900px;
+            height: 200px;
+            background-color: #9DBEB9;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="logo">
+                <img src="torus.jpg" alt="">
+            </div>
+            <nav>
+                <div class="nav_item">
+                    <a href="layout_html5.html">Home</a>
+                </div>
+                <div class="nav_item">
+                    <a href="#">Menu</a>
+                </div>
+                <div class="nav_item">
+                    <a href="#">About Us</a>
+                </div>
+                <div class="nav_item">
+                    <a href="#">Career</a>
+                </div>
+            </nav>
+        </header>
+        <section class="ads">
+            Display Ads
+        </section>
+        <section class="main_area">
+            <article>
+                Display Article
+                <h4>The title</h4>
+                <p>The paragraph</p>
+            </article>
+            <aside>
+                Aside
+                <div class="aside_item">
+                    <a href="#">Aside1</a>
+                </div>
+                <div class="aside_item">
+                    <a href="#">Aside2</a>
+                </div>
+                <div class="aside_item">
+                    <a href="#">Aside3</a>
+                </div>
+                <div class="aside_item">
+                    <a href="#">Aside4</a>
+                </div>
+                <div class="aside_item">
+                    <a href="#">Aside5</a>
+                </div>
+            </aside>
+        </section>
+        <footer>
+            Footer 
+        </footer>
+    </main>
+    
+</body>
+</html>

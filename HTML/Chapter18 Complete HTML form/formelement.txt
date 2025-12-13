@@ -1,0 +1,31 @@
+<input>
+<label>
+<select>
+<textarea>
+<button>
+<fieldset> and <legend>
+<select> and <option>
+
+
+Input attribute: type
+
+text
+password
+radio
+range
+reset
+search
+submit
+tel
+time
+URL
+Week
+button
+checkbox
+color
+Date
+Email
+file
+Image
+Month
+Number

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators in CSS</title>
+    <style>
+        div h1 span{
+            background-color: grey;
+        }
+
+        #Jaden .para p{
+            background-color: blue;
+        }
+        div > h1 {
+            color: yellow;
+        }
+
+        h1 + p {
+            background-color: aqua;
+        }
+
+        h1 ~ p {
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <!--
+    Descendant Slectors
+    Child Selector with greater than sign
+    Adjacent Sibling Selector with addition sign
+    General Sibling Selector with tilde sign
+    -->
+    <div>
+        <h1>Jaden.com <span>Span text</span></h1>
+        <h1>Jaden.com</h1>
+        <p>Jaden.test test <span>Span text</span></p>
+    </div>
+    <div id="Jaden">
+        <div class="para">
+            <p>Jaden.com</p>
+        </div>
+    </div>
+        <h1>Jaden.com</h1>
+        <h1>Jaden.com</h1>
+        <p>Jaden.com test</p>
+        <p>Jaden.com</p>
+        <p>Jaden.com</p>
+        <p>Jaden.com</p>
+</body>
+</html>

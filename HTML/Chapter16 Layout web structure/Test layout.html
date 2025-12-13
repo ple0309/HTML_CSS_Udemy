@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Web layout</title>
+    <style>
+        .main{
+            width: 900px;
+            height: ;
+            background-color: pink;
+            margin: auto;
+        }
+        .header{
+            width: 900px;
+            height: 200px;
+            background-color: #194350;
+        }
+        .logo{
+            width: 190px;
+            height: 180px;
+            border: 3px solid rgb(255, 255, 255);
+            float: left;
+            margin-left: 6px;
+            margin-top: 6px;
+            border-radius: 100%;
+        }
+        .logo img{
+            width: 190px;
+            height: 180px;
+            border-radius: 100%;
+        }
+        .nav{
+            width: 650px;
+            float: right;
+            margin-top: 140px;
+            margin-right: 10px;
+            justify-content: space-between;
+            display: flex;
+            padding: 10px;
+        }
+        .nav .nav_item{
+            padding: 10px 30px 10px;
+            background-color: #4bcff7;
+            border-radius: 70px;
+            transition: background-color 0.1s ease-in-out, transform 0.3s ease;
+        }
+        .nav .nav_item a{
+            text-decoration: none;
+            color: black;
+        }
+        .nav .nav_item:hover{
+            background-color: #999999;
+            transform: scale(1.55);
+        }
+        .main_area{
+            width: 900px;
+            height: ;
+            background-color: rgb(90, 88, 88);
+        }
+        .aside{
+            width: 200px;
+            height: 500px;
+            background-color: #FF8882;
+            float: left;
+        }
+        .main_content{
+            width: 700px;
+            height: 500px;
+            background-color: #FFC2B4;
+            float: left;
+            text-align: center;
+        }
+        .section1{
+            width: 500px;
+            height: 100px;
+            background-color: #916d65;
+            margin: 5px;
+            margin-left: 100px;
+        }
+        .section2{
+            width: 500px;
+            height: 100px;
+            background-color: #916d65;
+            margin: 5px;
+            margin-left: 100px;
+
+        }
+        .section3{
+            width: 500px;
+            height: 100px;
+            background-color: #916d65;
+            margin: 5px;
+            margin-left: 100px;
+
+        }
+        .footer{
+            width: 900px;
+            height: 200px;
+            background-color: #9DBEB9;
+            clear: both;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+        }
+        .footer .block{
+            width: 300px;
+            height: 180px;
+            border: 1px solid black;
+            float: left;
+            position: relative;
+            top: 10px;
+            left: 10px;
+        }
+        .footer .block1{
+            width: 150px;
+            height: 180px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 20px; 
+            margin-top: 10px;
+        }
+        .footer .block2{
+            width: 150px;
+            height: 180px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 10px; 
+            margin-top: 10px;
+        }
+        .footer .block3{
+            width: 150px;
+            height: 180px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 10px; 
+            margin-top: 10px;
+        }
+        .footer .block4{
+            width: 150px;
+            height: 180px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 10px; 
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+        .block img{
+            width: 300px;
+            height: 180px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logo">
+                <img src="torus.jpg" alt="">
+            </div>
+            <div class="nav">
+                <div class="nav_item">
+                    <a href="layout_html5.html">Home</a>
+                </div>
+                <div class="nav_item">
+                    <a href="#">Menu</a>
+                </div>
+                <div class="nav_item">
+                    <a href="Test layout.html">Blog</a>
+                </div>
+                <div class="nav_item">
+                    <a href="#">Feedback</a>
+                </div>
+                <div class="nav_item">
+                    <a href="#">About</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main_area">
+            <div class="aside">aside</div>
+            <div class="main_content">main content
+                <div class="section1">
+                    <h4>What is HTML</h4>
+                    <p>HTML is the...</p>
+                </div>
+                <div class="section2">
+                    <h4>What is HTML Tags</h4>
+                    <p>HTML is the...</p>
+                </div>
+                <div class="section3">
+                    <h4>What is HTML Heading and Paragrap...</h4>
+                    <p>HTML is the...</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="block">
+                <img src="torus.jpg" alt="">
+            </div>
+            <div class="block1">
+                <h4>About Us</h4>
+            </div>
+            <div class="block2">
+                <h4>Useful Link</h4>
+            </div>
+            <div class="block3">
+                <h4>External Link</h4>
+            </div>
+            <div class="block4">
+                <h4>Career</h4>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
