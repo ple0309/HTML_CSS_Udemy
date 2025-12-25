@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        div{
+            width:100px;
+            height: 100px;
+            margin: 140px;
+            background-color: green;
+            /* animation-name: example;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0.3,0.4,0.8);
+            animation-direction: alternate-reverse;
+            animation-delay: 2s; */
+            animation: example 2s linear 2s reverse;
+        }
+        @keyframes example{
+            from {
+                background-color: red;
+                transform: translateX(0px) rotate(0deg) ;
+            }
+            to{
+                background-color: yellow;
+                transform: translateX(500px) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<!--
+CSS Animation
+
+animation-name
+animation-duration
+animation-timing-function:
+    .ease: slow start, then fast and then end slow
+    .linear: same speed from start to end
+    .ease-in: slow start
+    .ease-out: slow end
+    .ease-in-out: slow start and end
+    .step-start: according to steps(1, start)
+    .step-end: according to steps(1, end)
+    .steps(number start/end)
+    .cubic-bezier: user defined(0.3, 1, 0.2)
+
+animation-delay
+animation-iteration-count
+    .infinite or specific times.
+animation-direction:
+    .normal
+    .reverse
+    .alternate
+    .alternate-reverse
+
+Animation shorthand property
+-animation(animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-direction)
+-->
+<body>
+    <div></div>
+</body>
+</html>

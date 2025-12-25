@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 3D Transform</title>
+    <style>
+        #main{
+            width: 300px;
+            height: 200px;
+            margin-left: 200px;
+            background-color: brown;
+        }
+        #box{
+            width: 300px;
+            height: 200px;
+            background-color: gray;
+            /* transform: perspective(200px) rotateX(20deg); */
+            /* transform: perspective(200px) rotateY(20deg); */
+            /* transform: perspective(200px) rotateZ(22deg); */
+            /* transform: perspective(200px) rotate3d(1,0,0,20deg); */
+            /* transform: perspective(200px) translateX(100px); */
+            /* transform: perspective(200px) translateY(100px); */
+            /* transform: perspective(200px) translateZ(10px); */
+            /* transform: perspective(200px) translate3d(90px,10px,40px); */
+            transform: perspective(100px) scale3d(2,3,3);
+        }
+    </style>
+</head>
+<!--
+    rotateX(angle)
+    rotateY(angle)
+    rotateZ(angle)
+    rotate3d(x,y,z,angles)
+    translateX(x-px)
+    translateY(y-px)
+    translateZ(z-px)
+    translate3d(x,y,z)
+    scaleZ(z) with rotate
+    scale3d(x,y,z) with rotate
+    perspective(npx)
+    matrix3d(n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)
+-->
+<body>
+    <div id="main">
+        <div id="box">
+            <p>Hi, How are you</p>
+        </div>
+    </div>
+</body>
+</html>

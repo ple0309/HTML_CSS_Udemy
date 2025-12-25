@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transition</title>
+    <style>
+        div {
+            width: 100px;
+            height: 40px;
+            background-color: gray;
+            margin-bottom: 100px;
+            transition-property: width, height, background-color; /*transition-property: all; can use to mention all property in*/
+            /* transition-duration: 1s, 2s, 1s; */
+            transition-duration: 1s;
+            transition-timing-function: ease-in;
+            /* transition-delay: 2s; */
+            transition: all 1s ease 2s /*property duration timing-function delay*/
+        }
+        div:hover{
+            width: 200px;
+            height: 100px;
+            background-color: red;
+        }
+        input{
+            width: 50px;
+            background-color: gray;
+            transition-property: width;
+            transition-duration: 1s;
+        }
+        input:focus{
+            width: 100px;
+        }
+    </style>
+</head>
+<!--
+transition:
+1) transition-property
+2) transition-duration
+3) transition-timing-function
+    ease : slow start, then fast and then end slow
+    linear: same speed from start to end
+    ease-in: slow start
+    ease-out: slow end
+    ease-in-out: slow start and end
+
+    step-start: according to steps(1,start)
+    step-end: according to steps(1,end)
+    steps(number, start/end)
+    cubic-bezier: user defined(0.3,1,0.2)
+
+4) transition-delay
+-->
+<body>
+    <div></div>
+    <!-- <div id="d1"></div>
+    <br><br>
+    <div id="d2"></div>
+    <br><br>
+-->
+    <form>
+        <input type="text">
+    </form>
+</body>
+</html>
