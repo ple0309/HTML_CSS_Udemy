@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trying chapter 8</title>
+    <style>
+        #d1{
+            width: 100px;
+            height: 100px;
+            background-color: grey;
+            transition-property: width, height, background-color;
+            transition-duration: 0.25s, 1s, 1s;
+            transition-timing-function: ease;
+        }
+
+        #d1:hover{
+            width:150px;
+            height: 150px;
+            background-color: aqua;
+        }
+        #d2{
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            background-color: green;
+            animation-name: example;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes example{
+            from{
+                background-color: red;
+                transform: translate(0px,0px);
+            }
+            to{
+                background-color: aqua;
+                transform: translate(1000px,500px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="d1"></div>
+    <br><br><br>
+    <div id="d2"></div>
+</body>
+</html>
