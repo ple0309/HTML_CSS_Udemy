@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Media Queries</title>
+    <style>
+        .jaden{
+            width: 900px;
+            height: 300px;
+            background-color: pink;
+        }
+        @media screen and (max-width: 650px) {
+            .jaden{
+                width: 100%;
+                background-color: grey;
+            }
+        }
+
+        @media screen and (max-width: 800px)
+        {
+            .pic img {
+                width: 100%;
+            }
+        }
+        @media screen and (max-width: 600px)
+        {
+            .block h1{
+                background-color: green;
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+<!--
+Media Queries: To keep different design for different devices we used media queries. We also used media queries to keep responsive design for a website or web page.
+
+Diffrenet types of media:
+    .All
+    .Print
+    .Screen(mobile, tablet, laptop etc)
+    .Speech
+
+Example:
+@media screen and (max-width: 800px)
+.jaden{
+    width: 60%;
+    background-color: red;
+}
+
+
+1. Screen width with 650px and down)
+@media screen and (max-width: 650px)
+{
+    You code....
+}
+
+2. Screen width 650px and up
+@media screen and (min-width: 650px){
+    You code...
+}
+
+3. Screen width 750px and up
+@media screen and (min-width: 750px){
+    You code...
+}
+
+4. Laptops OR desktops screen width with 992px and up
+@media screen and (min-width: 992px)
+{
+    Your CSS code...
+}
+
+5. Extra large laptops and desktops screen width 1200px and up
+{
+    Your CSS code...
+}
+-->
+<body>
+    <div class="jaden">
+        <p>How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you vvHow are you How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you How are you </p>
+        <div class="pic">
+            <img src="test2.jpg" alt=""">
+        </div>
+        <div class="block">
+            <h1>Jaden Le</h1>
+        </div>
+    </div>
+</body>
+</html>
