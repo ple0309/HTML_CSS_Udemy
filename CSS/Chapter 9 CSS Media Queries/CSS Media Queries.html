@@ -76,6 +76,37 @@ Example:
 {
     Your CSS code...
 }
+
+
+Explanation:
+    1) Desktop Styles: a screen width greater than 768px. The container is set to 80% width with a margin and padding.
+
+    2) Tablet Styles (768px and below): devices with a maximum width of 768px. The container width is adjusted to 90%.
+
+    3) Mobile Styles( 576px and below): Target devices with a maximum width of 576px. The container width is set to 100%.
+
+
+    @media (max-width: 768px)
+    {
+        .container {
+            width: 90%;
+        }
+    }
+
+    @media (max-width: 576px)
+    {
+        .container{
+            width: 100%;
+            padding: 10px;
+        }
+    }
+
+    Explanation:
+    Responsive Design using Media Queries:
+
+    - Tablet Styles (768px and below): The container width is adjusted to 90% to ensure better readability and spacing on smaller screens.
+
+    - Mobile Styles (576px and below): The container width is set to 100% to make sure it occupies the full width of the viewport, and the padding is reduced to provide more space for content.
 -->
 <body>
     <div class="jaden">
