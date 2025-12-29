@@ -5,10 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Form</title>
     <style>
-        
+        form{
+            background-color: pink;
+            width: 100%;
+
+        }
+        label{
+            color: blue;
+        }
+        input[type="submit"]{
+            margin: 0 auto;
+            width: 50%;
+        }
+        input[type="text"]{
+            width: 50%;
+        }
+        input[type="text"]:focus {
+            background-color: yellowgreen;
+        }
+        input[type="text"] {
+            background-color: aqua ;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
-    
+    <form action="#">
+        <label for="first_name">First Name</label>
+        <input type="text" name="first_name"><br><br>
+        <label for="last_name">Last Name</label>
+        <input type="text" name="last_name"><br><br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
