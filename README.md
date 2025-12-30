@@ -22,25 +22,26 @@ The focus of this repository is **HTML5, CSS3, layout techniques, responsive des
 ---
 
 ## 🧱 HTML Topics Covered
-Chapter 1 - Introduction
-Chapter 2 - HTML & CSS Overview
-Chapter 3 - HTML Formatting
-Chapter 4 - HTML Colors
-Chapter 5 - HTML Links
-Chapter 6 - HTML Images
-Chapter 7 - Complete Tables
-Chapter 8 - Lists
-Chapter 9 - Block & Inline Elements
-Chapter 10 - Class & ID
-Chapter 11 - Character Encoding
-Chapter 12 - Iframes
-Chapter 13 - File Paths
-Chapter 14 - Head Section
-Chapter 15 - Semantic Elements
-Chapter 16 - Layout & Web Structure
-Chapter 18 - Complete HTML Forms
-Chapter 19 - Responsive Website
-Chapter 20 - Multimedia
+
+- Chapter 1  - Introduction
+- Chapter 2  - HTML & CSS Overview
+- Chapter 3  - HTML Formatting
+- Chapter 4  - HTML Colors
+- Chapter 5  - HTML Links
+- Chapter 6  - HTML Images
+- Chapter 7  - Complete Tables
+- Chapter 8  - Lists
+- Chapter 9  - Block & Inline Elements
+- Chapter 10 - Class & ID
+- Chapter 11 - Character Encoding
+- Chapter 12 - Iframes
+- Chapter 13 - File Paths
+- Chapter 14 - Head Section
+- Chapter 15 - Semantic Elements
+- Chapter 16 - Layout & Web Structure
+- Chapter 18 - Complete HTML Forms
+- Chapter 19 - Responsive Website
+- Chapter 20 - Multimedia
 
 ### ✅ Key HTML Skills Gained
 - Proper HTML document structure
@@ -53,16 +54,16 @@ Chapter 20 - Multimedia
 ---
 
 ## 🎨 CSS Topics Covered
-Chapter 1 - CSS Basics
-Chapter 2 - Basic Designing
-Chapter 3 - Position
-Chapter 4 - Float, Overflow, Display, Columns
-Chapter 5 - Box Model (Margin, Border, Padding)
-Chapter 6 - Specificity
-Chapter 7 - Pseudo Classes & Elements
-Chapter 8 - CSS 2D Transform & Animation
-Chapter 9 - CSS Media Queries
-Chapter 10 - CSS Mix Styling
+- Chapter 1 - CSS Basics
+- Chapter 2 - Basic Designing
+- Chapter 3 - Position
+- Chapter 4 - Float, Overflow, Display, Columns
+- Chapter 5 - Box Model (Margin, Border, Padding)
+- Chapter 6 - Specificity
+- Chapter 7 - Pseudo Classes & Elements
+- Chapter 8 - CSS 2D Transform & Animation
+- Chapter 9 - CSS Media Queries
+- Chapter 10 - CSS Mix Styling
 
 ### ✅ Key CSS Skills Gained
 - Box Model & layout fundamentals
